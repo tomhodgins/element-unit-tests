@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Element Unit Tests</title>
+
+<h1 id=ew>EW Test</h1>
+<h1 id=eh>EH Test</h1>
+<h1 id=emin>EMIN Test</h1>
+<h1 id=emax>EMAX Text</h1>
+
+<script type=module>
+  import jsincss from 'https://unpkg.com/jsincss/index.js'
+  import * as eunit from '../index.vanilla.js'
+
+  jsincss(()=>`
+
+    #ew {
+      text-shadow:
+        red
+        ${eunit.ew(ew, 2)}px
+        ${eunit.ew(ew, 2)}px
+        0
+      ;
+    }
+
+    #eh {
+      text-shadow:
+        lime
+        ${eunit.eh(eh, 20)}px
+        ${eunit.eh(eh, 20)}px
+        0
+      ;
+    }
+
+    #emin {
+      text-shadow:
+        blue
+        ${eunit.emin(emin, 20)}px
+        ${eunit.emin(emin, 20)}px
+        0
+      ;
+    }
+
+    #emax {
+      text-shadow:
+        yellow
+        ${eunit.emax(emax, 2)}px
+        ${eunit.emax(emax, 2)}px
+        0
+      ;
+    }
+
+  `)
+</script>
