@@ -1,0 +1,38 @@
+{
+  "name": "element-unit-tests",
+  "version": "1.0.0",
+  "description": "JavaScript tests for element-based units",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhodgins/element-unit-tests.git"
+  },
+  "keywords": [
+    "element",
+    "based",
+    "css",
+    "jsincss",
+    "js-in-css",
+    "length",
+    "unit",
+    "element-based",
+    "element-unit",
+    "element-percentage",
+    "ew",
+    "eh",
+    "emin",
+    "emax"
+  ],
+  "author": "Tommy Hodgins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomhodgins/element-unit-tests/issues"
+  },
+  "homepage": "https://github.com/tomhodgins/element-unit-tests#readme"
+}

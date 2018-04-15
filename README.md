@@ -1,6 +1,6 @@
 # element-unit-tests
 
-Tests for element-based units like `EW`, `EH`, `EMIN`, and `EMAX` provided as a JS module.
+JavaScript tests for element-based units like `EW`, `EH`, `EMIN`, and `EMAX` provided as a JS module.
 
 ## Usage
 
@@ -29,7 +29,9 @@ import * as elementUnit from './path/to/index.vanilla.js'
 
 An example of this can be found in [tests/vanilla-test.html](https://tomhodgins.github.io/element-unit-tests/tests/vanilla-test.html)
 
-Now the functions from this module (`ew`, `eh`, `emin`, `emax`) should be available for use inside this module as `elementUnit.ew`, `elementUnit.eh`, etc.
+Now the functions from this library (`ew`, `eh`, `emin`, `emax`) should be available for use inside this module as `elementUnit.ew`, `elementUnit.eh`, etc.
+
+### Demo
 
 A functional demo of these functions being used for styling can be found in [tests/demo.html](https://tomhodgins.github.io/element-unit-tests/tests/demo.html)
 
