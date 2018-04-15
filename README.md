@@ -27,11 +27,11 @@ If you are using vanilla JS modules you will want to use the [index.vanilla.js](
 import * as elementUnit from './path/to/index.vanilla.js'
 ```
 
-An example of this can be found in [tests/vanilla-test.html](tests/vanilla-test.html)
+An example of this can be found in [tests/vanilla-test.html](https://tomhodgins.github.io/element-unit-tests/tests/vanilla-test.html)
 
 Now the functions from this module (`ew`, `eh`, `emin`, `emax`) should be available for use inside this module as `elementUnit.ew`, `elementUnit.eh`, etc.
 
-A functional demo of these functions being used for styling can be found in [tests/demo.html](tests/demo.html)
+A functional demo of these functions being used for styling can be found in [tests/demo.html](https://tomhodgins.github.io/element-unit-tests/tests/demo.html)
 
 ## Related Info
 
